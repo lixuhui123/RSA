@@ -3,20 +3,20 @@
 #include <fstream>
  
 using namespace std;
-//void testfile()
-//{
-//	ifstream fin("test.txt");
-//	//以文本形式打开，按照空格或者换行读取数据
-//	char c;
-//	int a;
-//	double d;
-//	fin >> c;
-//	fin >> a;
-//	fin >> d;
-//	cout << c << " " << a << " " << d << " ";
-//
-//
-//}
+void testfile()
+{
+	ifstream fin("test.txt");
+	//以文本形式打开，按照空格或者换行读取数据
+	char c;
+	int a;
+	double d;
+	fin >> c;
+	fin >> a;
+	fin >> d;
+	cout << c << " " << a << " " << d << " ";
+
+
+}
 
 void testBoostBigInt()
 {
